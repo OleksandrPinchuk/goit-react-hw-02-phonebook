@@ -1,6 +1,6 @@
 const Contact = ({name, number, id, handleDelete}) => {
     return (
-        <li key={id}>
+        <li >
             <p>{name}:</p>
             <p>{number}</p>
             <button type="button" aria-label="Close" onClick={() => handleDelete(id)}>delete</button>

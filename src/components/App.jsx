@@ -32,7 +32,6 @@ export class App extends Component {
     }))
   }
 
-
   changeFilter = e => {
     this.setState({ filter: e.currentTarget.value });
   };
@@ -42,7 +41,6 @@ export class App extends Component {
     return this.state.contacts.filter(contact =>
       contact.name.toLowerCase().includes(normalizedFilter));
   };
-
 
   render() {
     
@@ -54,11 +52,8 @@ export class App extends Component {
         <Filter value={this.state.filter} onChange={this.changeFilter} />
         <ContactList contacts={this.visibleContacts()} handleDelete={this.handleDelete} />
       </div>
-      
     )
   }
-  
-
 };
 
 
