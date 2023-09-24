@@ -4,17 +4,19 @@
     justify-content:space-between;
     padding-left: 20px;
     padding-right: 20px;
-
 }
 
 .button {
     width: 80px;
     font-size: 12px;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid rgb(173, 173, 173);
     border-radius: 4px;
+    outline: none;
     padding: 4px;
     text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .text {
