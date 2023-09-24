@@ -1,0 +1,26 @@
+.box {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.button {
+    width: 80px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.button:hover, .button:focus {
+    background-color: rgb(255, 255, 164);
+}
